@@ -1,0 +1,222 @@
+﻿
+
+
+$(document).ready(function () {
+
+
+    $('.coe-carousel').owlCarousel({
+        items: 1,
+        loop: false,
+        nav: false,
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 300, // 300
+        paginationSpeed: 100,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, // 2000
+        autoplayHoverPause: true,
+        lazyLoad: true,
+        autoHeight: true,
+        margin: 0,
+
+        /* smartSpeed: 500,autoplayTimeout:true, */
+    });
+
+    $('.department-carousel').owlCarousel({
+        items: 1,
+        loop: false,
+        nav: false,
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 300, // 300
+        paginationSpeed: 100,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 8000, // 2000
+        autoplayHoverPause: true,
+        lazyLoad: true,
+        autoHeight: true,
+        margin: 0,
+
+        /* smartSpeed: 500,autoplayTimeout:true, */
+    });
+    $('.custom-carousel').owlCarousel({
+        items: 1,
+        loop: false,
+        nav: false,
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 300, // 300
+        paginationSpeed: 100,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, // 2000
+        autoplayHoverPause: true,
+        lazyLoad: true,
+        autoHeight: true,
+        margin: 0,
+        singleItem: true
+
+        /* smartSpeed: 500,autoplayTimeout:true, */
+    });
+
+
+    $('.fadeOut').owlCarousel({
+        items: 1,
+        animateOut: 'fadeOut',
+        loop: false,
+        nav: true,
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 300,
+        paginationSpeed: 800,
+        items: 1,
+        itemsDesktop: true,
+        itemsDesktopSmall: true,
+        itemsTablet: true,
+        itemsMobile: true,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+
+    });
+
+  
+   
+
+    $('.video-carousel').owlCarousel({
+        items: 3,
+        loop: false,
+        nav: true,
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 300,
+        paginationSpeed: 800,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+
+    });
+
+
+
+    $('.companylogo-carousel').owlCarousel({
+        items: 6,
+        margin:25,
+        loop: false,
+        nav: true,
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 300,
+        paginationSpeed: 800,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+
+    });
+
+
+    $('.accreditation-carousel').owlCarousel({
+        items: 1,
+        margin: 25,
+        loop: false,
+        nav: false,
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 300,
+        paginationSpeed: 800,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+
+    });
+
+    $('.placements-carousel').owlCarousel({
+        items: 1,
+        margin: 25,
+        loop: false,
+        nav: false,
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 300,
+        paginationSpeed: 800,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+
+    });
+
+
+    $('.ssctoppers-carousel').owlCarousel({
+        items: 4,
+        loop: false,
+        nav: true,
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 300,
+        paginationSpeed: 800,
+        itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile: false,
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+
+    });
+
+
+    
+
+  
+ 
+});
+/*
+$(function () {
+    $(".latest-news").bootstrapNews({
+        newsPerPage: 4,
+        navigation: true,
+        autoplay: true,
+        direction: 'up', // up or down
+        animationSpeed: 'normal',
+        newsTickerInterval: 4000, //4 secs
+        pauseOnHover: true,
+        onStop: null,
+        onPause: null,
+        onReset: null,
+        onPrev: null,
+        onNext: null,
+        onToDo: null
+    });
+});
+*/
+function GoToRegistration()
+{
+    location.href="GCUAT/GCU/Register"
+}
